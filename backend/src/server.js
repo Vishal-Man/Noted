@@ -9,7 +9,7 @@ import  ratelimiter  from "./middleware/rateLimiter.js"
 dotenv.config({ path: "./.env" });
 console.log(process.env.MONGO_URI);
 const app = express()
-const PORT = 5001
+const PORT = process.env.PORT || 5001
 
 //middleware
 app.use(cors({

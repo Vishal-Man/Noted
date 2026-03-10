@@ -25,8 +25,3 @@ connectDB().then(()=>{
         console.log("Server is running on PORT:", PORT)
     })
 })
-    
-
-//RWQ9W881bSb3pSLN
-
-//mongodb+srv://mvishal_db_user:RWQ9W881bSb3pSLN@cluster0.drktwnd.mongodb.net/?appName=Cluster0
